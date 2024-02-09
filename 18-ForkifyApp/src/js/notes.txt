@@ -1,0 +1,7 @@
+sequence of doing code in js folder:
+
+Example
+1. model.js= create addBookmark function
+2. controller.js = create controlAddBookmark function
+3. recipeView.js = create addHandlerAddBookmark function
+4. controller.js = call the above controlAddBookmark function in the recipeView.addHandlerAddBookmark(controlAddBookmark) by handling the recipeView.js function
