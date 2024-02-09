@@ -1,0 +1,14 @@
+///////////////////////////////////////
+// ASYNCHRONOUS JS: PROMISES, ASYNC/AWAIT & AJAX
+// Async. JS, use case- To make AJAX calls to APIs
+// In Sync. code, We had to wait for the user to click on the alert window to continue execution. That's coz alert is blocking the sync.code 
+
+// But now with this timer, the callback is actually asynchronous, so its only going to be executed after the timer has finished. So its non-blocking coz in the meantime, the rest of the code can keep running normally.
+
+// Now, when the timer finally finishes after 5 seconds, the callback function will finally be executed as well.
+
+// asynchronous programming is all about coordinating the behavior of our program over a certain period of time. So asynchronous literally means not occurring at the same time.
+
+// There's just one more important thing that I need to mention which is the fact that event listeners alone do not make code asynchronous, just like callback functions alone, do also not make code asynchronous. For example, an event listener listening for a click on a button is not doing any work in the background. It's simply waiting for a click to happen, but it's not doing anything. And so there is no asynchronous behavior involved at all. Now what makes this code example asynchronous is simply the fact that the image is loading asynchronously in the background, but not the fact that we are listening for the load events to happen. So what matters is the asynchronous behavior of a task, like running a timer or loading an image.
+
+// So these are called APIs because they are a self-contained piece of software that allow other pieces of software to interact with them. So again, objects made from a class can be seen as self-contained encapsulated pieces of software that other pieces of software can interact with.

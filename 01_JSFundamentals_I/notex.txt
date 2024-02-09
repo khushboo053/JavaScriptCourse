@@ -1,0 +1,55 @@
+VALUES & VARIABLES
+
+All JavaScript variables must be identified with unique names.
+
+These unique names are called identifiers.
+
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+
+The general rules for constructing names for variables (unique identifiers) are:
+
+Names can contain letters, digits, underscores, and dollar signs.
+Names must begin with a letter.
+Names can also begin with $ and _ (but we will not use it in this tutorial).
+Names are case sensitive (y and Y are different variables).
+Reserved words (like JavaScript keywords) cannot be used as names.
+
+
+// No variable can start with Capital letter
+let Person = "john";
+
+// As "PI" keyword is stored in JS so it can be start with capital letter and so not give an error
+let PI = 3.14;
+
+// Correct way of naming variables is in Camelcase format
+let myCurrentJob = "Programmer";
+
+
+
+
+
+
+
+DATATYPES
+
+- Value is either an object or a primitive.
+- value is only primitive when it is not an object.
+
+Object => let me = { name: "Khushboo" };
+Primitive => let firstName = "Khushboo";
+
+7 Primitive DataTypes:
+Number, String, Boolean
+Undefined, Null
+Symbol, BigInt
+
+Note: JS has dynamic typing - We do not manually define the datatype of the value stored in a variable. Instead, Datatypes are determined automatically.
+
+Value has a type, not variable!
+
+// This gives output = "object" which is a bug in JS
+console.log(typeof null);
+
+// Here, we muted the variable age or reassigning the value to age variable
+let age = 20;
+age = 21;
